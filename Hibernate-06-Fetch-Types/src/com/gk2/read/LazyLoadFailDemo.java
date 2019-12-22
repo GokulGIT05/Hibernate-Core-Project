@@ -33,7 +33,7 @@ public class LazyLoadFailDemo {
 			
 			session.getTransaction().commit();
 			// After session is closed, calling the getter of the class. So its fail.
-			System.out.println("Instructor Courses: "+theInstructor.getTheCourse());
+			System.out.println("Instructor Courses: "+theInstructor.getTheCourse()); // If its Eager it wont fail.
 			
 			System.out.println("Done");
 

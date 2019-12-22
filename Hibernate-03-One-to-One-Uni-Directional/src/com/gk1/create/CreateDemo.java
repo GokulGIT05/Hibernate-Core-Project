@@ -29,7 +29,7 @@ public class CreateDemo {
 			/*Instructor instructorTemp=new Instructor("GK","Gopi","gk@google.com");
 			InstructorDetail instructorDetails=new InstructorDetail("GkChannel", "Reading Books");*/
 			
-			Instructor instructorTemp=new Instructor("GK2","Gopi2","gk2@google.com");
+			Instructor instructorTemp=new Instructor("GK222","Gopi2","gk2@google.com");
 			InstructorDetail instructorDetails=new InstructorDetail("Gk2Channel", "Movies");
 			
 			//Step 2: Associate Objects 
